@@ -20,7 +20,7 @@ const HeadlineValidatorPanel: React.FC<HeadlineValidatorPanelProps> = ({
       <div className="w-[60%] h-[1px] bg-black mx-auto mb-8" />
       
       <SectionTitle 
-        title="Headline Validator" 
+        title="Title Validator" 
         subtitle="Department of Press Records – Archive v4.2" 
       />
 
