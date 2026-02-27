@@ -1,0 +1,5 @@
+{
+  "name": "Headline Validator & Archive",
+  "description": "A 1946-style government press archive interface for validating and archiving news headlines.",
+  "requestFramePermissions": []
+}
