@@ -207,7 +207,7 @@ const TitleVerificationReport: React.FC<TitleVerificationReportProps> = ({ title
         <AnimatePresence>
           <motion.div
             initial={{ scale: 3, opacity: 0, rotate: 20 }}
-            animate={{ scale: 1, opacity: 1, rotate: isApproved ? -15 : 15 }}
+            animate={{ scale: 1, opacity: 0.5, rotate: isApproved ? -15 : 15 }}
             className={`text-6xl font-black border-[8px] px-12 py-4 uppercase tracking-tighter ${
               isApproved ? 'border-green-800 text-green-800' : 'border-red-800 text-red-800'
             }`}
