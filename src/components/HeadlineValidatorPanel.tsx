@@ -26,7 +26,7 @@ const HeadlineValidatorPanel: React.FC<HeadlineValidatorPanelProps> = ({
 
       <div className="flex flex-col gap-2 font-cormorant">
         <label className="uppercase text-sm tracking-wider font-semibold">
-          Enter Headline
+          Enter Title
         </label>
         <TextArea
           value={inputText}
