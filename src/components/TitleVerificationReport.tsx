@@ -164,7 +164,7 @@ const TitleVerificationReport: React.FC<TitleVerificationReportProps> = ({ title
           <p className="font-bold uppercase text-[10px] tracking-widest border-b border-black/30 pb-1 mb-2">
             Registrar Findings
           </p>
-          <section className="flex flex-col gap-4 text-[12px] leading-relaxed text-black/90">
+          <section className="flex flex-col gap-4 text-[14px] leading-relaxed text-black/90">
             {isApproved ? (
               <>
                 <p className="drop-cap mb-3">
